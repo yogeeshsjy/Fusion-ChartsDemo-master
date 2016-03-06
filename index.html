@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Fusion Charts </title>
+<!--   <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+  <!-- Styles -->
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script type="text/javascript" src="Charts/FusionCharts.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/ace/1.1.01/ace.js" type="text/javascript" charset="utf-8"></script>
+  <link href="stylesheets/styles.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+      <![endif]-->
+    </head>
+    <body>
+<!--       <div class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+          <div class="col-lg-2">
+            
+          </div>
+
+        </div>
+        <blockquote class="pull-right"><h4><em>JavaScript Charts for Grown-Ups</em></h4></blockquote>
+      </div> -->
+      <div class="row pull-height">
+        <div class="col-lg-12 col-md-12 col-xs-12 pull-height">
+          <!-- <div class="alert alert-info">Changing the Series Type or Input Data Format will reset the Chart</div> -->
+          <div class="content" pull-height>
+            <div class="row pull-height">
+            <div class="col-lg-12 pull-height">
+                <div class="editorSpace pull-height ace-editor">
+                  <div id="editor"></div>
+                  <div class="pull-right intro">
+                    /* Fusion Charts : JavaScript Charts for the Grown-Ups <br />
+                     Fusion Charts renders charts from a JSON object or XML data<br />
+                     Please use the left side editor to provide input in the form of JSON object or XML<br />
+                     You can change the chart type for the same data from the right sidebar<br />
+                     Changing the Series Type or Input Data Format will reset the Chart<br />
+                    <a href="#" class="introtoggle">Hide this intro</a> */
+                  </div>
+                  <div class="showtext"><a href="#" class="introtoggle">Show Intro</a></div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="chartSpace">
+                  <div id="chartContainer">FusionCharts XT will load here!</div> 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="side-bar col-lg-2 col-md-2 col-sm-12">
+          <a class="navbar-brand" href="http://www.fusioncharts.com/"><img src="img/fusioncharts-logo_web.png" alt="Fusion Charts Logo"></a>
+          <h4>Chart Type</h4>
+          <select class="chartType form-control single-series">
+            <option value="column3d">Column 3D</option>
+            <option value="column2d">Column 2D</option>
+            <option value="line">Line</option>
+            <option value="area2d">Area 2D</option>
+            <option value="bar2d">Bar 2D</option>
+            <option value="pie2d">Pie 2D</option>
+            <option value="pie3d">Pie 3D</option>
+            <option value="doughnut2d">Doughnut 2D</option>
+            <option value="doughnut3d">Doughnut 3D</option>
+            <option value="pareto2d">Pareto 2D</option>
+            <option value="pareto3d">Pareto 3D</option>
+          </select>
+          <select class="chartType form-control multiple-series">
+            <option value="mscolumn2d">Multi Series Column 2D</option>
+            <option value="mscolumn3d">Multi Series Column 3D</option>
+            <option value="msline">Multi Series Line</option>
+            <option value="msbar2d">Multi Series Bar 2D</option>
+            <option value="msbar3d">Multi Series Bar 3D</option>
+            <option value="marimekko">Marimekko</option>
+            <option value="zoomline">Zoomline</option>
+          </select>
+          <h4>Series Type</h4>
+          <select class="seriesType form-control">
+            <option value="single">Single</option>
+            <option value="multiple">Multiple</option>
+          </select>
+          <h4>Input Data Format</h4>
+          <select class="inputFormat form-control">
+            <option value="json">JSON</option>
+            <option value="xml">XML</option>
+          </select>
+          <!-- <h4>Editor Theme</h4>
+          <select class="editorTheme form-control">
+            <option value="chrome">Chrome</option>
+            <option value="ambiance">Ambiance</option>
+            <option value="chaos">Chaos</option>
+            <option value="monokai">Monokai</option>
+            <option value="clouds">Clouds</option>
+            <option value="clouds_midnight">Clouds Midnight</option>
+            <option value="cobalt">Cobalt</option>
+            <option value="crimson_editor">Crimson</option>
+            <option value="dawn">Dawn</option>
+            <option value="dreamweaver">Dreamweaver</option>
+            <option value="eclipse">Eclipse</option>
+            <option value="github">Github</option>
+            <option value="idle_fingers">Idle Fingers</option>
+            <option value="katzenmilch">Katzenmilch</option>
+            <option value="kr_theme">KR</option>
+            <option value="kurior">Kurior</option>
+            <option value="merbivore">Merbivore</option>
+            <option value="merbivore_soft">Merbivore Soft</option>
+            <option value="terminal">Terminal</option>
+            <option value="textmate">Textmate</option>
+            <option value="tomorrow">Tomorrow</option>
+            <option value="twilight">Twilight</option>
+            <option value="xcode">XCode</option>
+          </select> -->
+        </div>
+      </div>
+<!--       <div id="footer">
+         <p class="text-muted"> 2014, FusionCharts. All rights reserved.</p>
+     </div> -->
+     <!-- Scripts -->
+     <script src="js/scripts.js"></script>
+   </body>
+   </html>

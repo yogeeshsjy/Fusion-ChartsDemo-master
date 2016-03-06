@@ -1,0 +1,11 @@
+Here in this application user can dynamically generate charts using Fusion Charts.
+User can change the chart type in the same series to change the chart type without changing the data.
+User idle time is caluculated. 
+The amount of time user spends after entering any character on the keyboard or Backspace and Delete, if it is greater than 1 second. The Chart rerenders.
+
+APIs and Tools used.
+Charts : Fusion Charts XT Trial
+Text Editor : ACE Tool kit
+CSS3 Framework : Bootstrap with SASS
+
+ 
